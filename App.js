@@ -18,10 +18,10 @@ const styles = StyleSheet.create({
     backgroundColor: 'cornflowerblue',
     flex: 1,
   },
-  caja1: {backgroundColor: 'navy', padding: 20},
-  caja2: {backgroundColor: 'yellow', padding: 20},
-  caja3: {backgroundColor: 'green', padding: 20},
-  caja4: {backgroundColor: 'teal', padding: 20},
+  caja1: {backgroundColor: 'navy', padding: 20, flex: 1},
+  caja2: {backgroundColor: 'yellow', padding: 20, flex: 1},
+  caja3: {backgroundColor: 'green', padding: 20, flex: 1},
+  caja4: {backgroundColor: 'teal', padding: 20, flex: 3},
 });
 
 export default App;
